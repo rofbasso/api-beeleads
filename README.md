@@ -20,7 +20,7 @@ O projeto foi criado perante um desafio proposto, sendo os seguintes requisitos:
     yarn
 
  - ### criar o banco de dados com as informações do ormconfig.json
- - - # o projeto foi criado com postgres mas o pacote do mysql está disponível no projeto basta alterar o type para mysql no ormconfig.json
+  - ### o projeto foi criado com postgres mas o pacote do mysql está disponível no projeto basta alterar o type para mysql no ormconfig.json
     "type": "postgres",
     "host": "localhost",
     "port": 5432,
