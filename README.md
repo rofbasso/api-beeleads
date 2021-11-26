@@ -13,13 +13,13 @@ O projeto foi criado perante um desafio proposto, sendo os seguintes requisitos:
 
 ## Como executar o projeto
 
- - # clonar repositório
+ - ### clonar repositório
     https://github.com/rofbasso/api-beeleads.git
  
- - # entrar na pasta do projeto e baixar os pacotes
+ - ### entrar na pasta do projeto e baixar os pacotes
     yarn
 
- - # criar o banco de dados com as informações do ormconfig.json
+ - ### criar o banco de dados com as informações do ormconfig.json
  - - # o projeto foi criado com postgres mas o pacote do mysql está disponível no projeto basta alterar o type para mysql no ormconfig.json
     "type": "postgres",
     "host": "localhost",
@@ -28,23 +28,23 @@ O projeto foi criado perante um desafio proposto, sendo os seguintes requisitos:
     "password": "eupassei",
     "database": "api_beeleads",
 
- - # após criar o banco executar as migrations
+ - ### após criar o banco executar as migrations
     yarn typeorm migration:run
 
- - # executar o projeto
+ - ### executar o projeto
     yarn dev
 
 ## Testando a aplicação
 
     Você pode testar a aplicação utilizando uma API Client ou utilizar a documentação
 
- - # Para acessar a documentação
+ - ### Para acessar a documentação
     http://localhost:3333/api-docs/
 
- - # Para testar as rotas, abra a rota desejada e clique no botão Try it out
+ - ### Para testar as rotas, abra a rota desejada e clique no botão Try it out
 
- - # Primeiro é necessário criar um usuário, utilizando a rota post de User
- - # Após criar um usuário é preciso fazer a autenticação pela rota post de Session
- - # Copie o token, clique no botão AUTHORIZE e cole o token no campo Value
- - # As outras rotas de User serão liberadas para serem testadas
- - # Nessas rotas é possível listar, alterar e excluir
+ - ### Primeiro é necessário criar um usuário, utilizando a rota post de User
+ - ### Após criar um usuário é preciso fazer a autenticação pela rota post de Session
+ - ### Copie o token, clique no botão AUTHORIZE e cole o token no campo Value
+ - ### As outras rotas de User serão liberadas para serem testadas
+ - ### Nessas rotas é possível listar, alterar e excluir
